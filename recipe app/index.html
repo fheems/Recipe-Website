@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Popular Recipes</h1>
+        </nav>
+    </header>
+    <!-- header above -->
+    <main>
+        <section class="intro">
+            <h2>Welcome to This Recipe Page</h2>
+            <p>Discover the secrets making delicious dishes by Top Restaurants. Explore recipes, view ingredients, and follow the cooking instructions to recreate your favorite meals at home.</p>
+        </section>
+    <!-- display welcome messge above -->
+        <section class="search-bar">
+            <input type="text" id="search" placeholder="Search for recipes...">
+    <!-- search bar above --> 
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+
+            </select>
+    <!-- filter option to categorise meals above -->
+        </section>
+        <section class="recipes" id="recipe-container">
+            <!-- Recipe items will be placed here by JavaScript -->
+        </section>
+    </main>
+    <!-- footer below -->
+    <footer>
+        <p> © 2024 by fheems. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
